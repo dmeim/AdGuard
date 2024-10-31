@@ -1,0 +1,25 @@
+# 
+# Title: MLabz AdGuard/DNS Allow List
+# Description: This list is meant to unblock specific IP/URLs to ensure compatibility with devices/websites.
+# Version: 2024.31.10
+# Homepage: https://github.com/hagezi/dns-blocklists
+#
+# EXAMPLES
+# ||example.org^: block access to example.org and all its subdomains;
+# @@||example.org^: unblock access to example.org and all its subdomains;
+#
+#
+#
+# General
+@@||cloudflare.com^
+@@||doubleclick.net^
+@@||gvt1.com^
+@@||gvt2.com^
+@@||gvt3.com^
+@@||gvt4.com^
+
+# SCS
+@@||lexmark.com^$ctag=user_child
+@@||goguardian.com^$ctag=user_child
+@@||now.gg^$ctag=user_child
+@@||cloudfront.net^$ctag=user_child
