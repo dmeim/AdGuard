@@ -1,0 +1,1 @@
+# Here is a list of basic domains that should be allowed to not break services that are generally needed for basic functioning online.
